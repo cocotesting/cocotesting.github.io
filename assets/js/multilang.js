@@ -44,6 +44,24 @@
           localStorage.setItem('lang', lang);
           selectText(lang);
         });
+
+      $('#JP2').click(function() {
+        var lang = $(this).text();
+          localStorage.setItem('lang', lang);
+          selectText(lang);
+          
+        });
+        $('#TC2').click(function() {
+        var lang = $(this).text();
+          localStorage.setItem('lang', lang);
+          selectText(lang);
+          
+        });
+        $('#EN2').click(function() {
+          var lang = $(this).text();
+          localStorage.setItem('lang', lang);
+          selectText(lang);
+        });
     });
 
     function selectText(lang){

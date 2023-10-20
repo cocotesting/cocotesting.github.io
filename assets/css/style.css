@@ -618,6 +618,7 @@ div.hide-on-large {
     color: #65c1b6;
     height: 56px;
     line-height: 56px;
+    float: right !important;
   }
   h3 {
     padding: 20px 30px;

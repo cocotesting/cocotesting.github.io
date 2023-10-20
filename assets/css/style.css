@@ -504,6 +504,11 @@ a.hoverline:hover {
   list-style-type: none;
   margin-left: 12px;
 }
+
+#skills .col .card ul li a {
+  pointer-events: none;
+}
+
 .card.large .card-content p {
   color: inherit;
   margin: 0;
